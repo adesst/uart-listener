@@ -4,7 +4,7 @@ SoftwareSerial mySerial = SoftwareSerial(8,9);
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(115200);
   while(!Serial){
     ;
   }
